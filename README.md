@@ -57,23 +57,47 @@
   - to track a file, filed needs to be putted in staging area, in this stage any modification is tracked.
   - to save the file and have a snapshot of all changes, the files will be putted in commiting stage.( Commits are created with the git commit command to capture the state of a project at that point in time.)
 
+#### git add:
+
+- it marks the file to be included as part of a code commit
+
 ### How to clone a directory ?
 
 - use git clone <https-link>
+- 'git pull' gives us the latest changes to the main branch.
 
 ### How to add changes and rull of changes in there
 
 - use git clone to get the repo
-- use 'git checkout -b files/adding' to add a new branch and go chage to that branch
+- use 'git checkout -b files/adding' to add a new branch so that later we can merge this branch to the main branch.
 - 'git add .' to add everything up to now
 - 'git commit -m "message"' to put your message out there
 - 'git push -u origin branchName' to push all the changes.
 
-### How to push a code from a local file to a repo
+#### Cheatsheet
 
-- use git init
+- git status: gives the status of latest changes
+- git branch: gives the branch we are currently in
+- git pull: gives the latest changes that is happened using our branch to the main branch.
+- git init: initialize a git repo.
 
 ### Can we create a creaet a repo our local machine
 
-- use something great
+- mkdir file: create a file
+- cd file: change to that file
+- git init: initialize a repository
+- git remote
+- cd .. : go to a file that has a connection to the central or distribute repository online
+- git remote -v: to get the connection link (URL)
+- cd: to local repository
+- git remote add origin URL(git@github.....)
+- git remote -v
+- git pull
+- ls
+- git checkout main: to set up a branch and track the branch main from the remote.
 -
+
+## Remote vs Local
+
+- Remote: a repository that developers can push changes
+- Local: it refers to our own local machines.
