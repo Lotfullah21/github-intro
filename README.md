@@ -65,4 +65,6 @@
 
 ### How to push a code from a local file to a repo
 
+- use git init
+
 ### Can we create a creaet a repo our local machine
