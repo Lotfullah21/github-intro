@@ -63,6 +63,12 @@
 
 ### How to add changes and rull of changes in there
 
+- use git clone to get the repo
+- use 'git checkout -b files/adding' to add a new branch and go chage to that branch
+- 'git add .' to add everything up to now
+- 'git commit -m "message"' to put your message out there
+- 'git push -u origin branchName' to push all the changes.
+
 ### How to push a code from a local file to a repo
 
 - use git init
