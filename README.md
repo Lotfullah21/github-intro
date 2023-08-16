@@ -73,7 +73,7 @@
 - 'git add .' to add everything up to now
 - 'git commit -m "message"' to put your message out there
 - 'git push -u origin branchName' to push all the changes.
-- 'git push -u origin main' no branching
+- 'git push -u origin main' no branching needed
 
 #### Cheatsheet
 
