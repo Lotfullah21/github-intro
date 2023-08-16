@@ -1,11 +1,3 @@
-### How to clone a directory ?
-
-### How to add changes and rull of changes in there
-
-### How to push a code from a local file to a repo
-
-### Can we create a creaet a repo our local machine
-
 ## Version Control
 
 - a system that keeps record of all changes and modifications in to files for tracking purpose
@@ -64,3 +56,13 @@
   - adding, removing, and updating any file inside the repository is considered a modified state.
   - to track a file, filed needs to be putted in staging area, in this stage any modification is tracked.
   - to save the file and have a snapshot of all changes, the files will be putted in commiting stage.( Commits are created with the git commit command to capture the state of a project at that point in time.)
+
+### How to clone a directory ?
+
+- use git clone <https-link>
+
+### How to add changes and rull of changes in there
+
+### How to push a code from a local file to a repo
+
+### Can we create a creaet a repo our local machine
